@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+    font-display: swap;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/kumbh-sans-v22-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/kumbh-sans-v22-latin-700.woff2') format('woff2');
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.disallow{
+    user-select: none;
+    pointer-events: none;
+}
+.active {
+    background-color: #509CDB;
+}
+
+.active:active {
+    box-shadow: #7ebcef 0px 54px 55px, rgb(109, 182, 231) 0px -12px 30px, rgb(84, 182, 224) 0px 4px 6px, rgba(58, 148, 232, 0.9) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

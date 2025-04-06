@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "ffc3",
+      "email": "ibvibrohim3110@gmail.com",
+      "name": "admin",
+      "password": "1234"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "49f7",
+      "name": "Shahriyor",
+      "email": "shahriyorshodyorivich@gmail.com",
+      "subject": "Computer Science",
+      "about": "Developers",
+      "class": "10 B",
+      "gender": "Male",
+      "age": "30",
+      "avatar": "blob:http://localhost:5173/822dd52a-177d-4af1-ab94-655ec9b28f97"
+    }
+  ]
+}
