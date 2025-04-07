@@ -1,6 +1,5 @@
 import React, {  useState } from 'react'
 import LoadingBtn from '../../components/LoadingBtn'
-import noImg from '../../assets/images/noImg.jpg'
 import axios from 'axios'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { PATH } from '../../hooks/usePath'
@@ -99,8 +98,7 @@ const AddTeacher = () => {
             <label>
               <span className='text-[18px] text-[#4F4F4F] font-medium'>Import Img</span>
               <input className='hidden' onChange={(e)=> setImage(URL.createObjectURL(e.target.files[0]))} type="file" />
-              <img src={image ? image : 
-                noImg
+              <img src={image
               } alt="profileIMg" width={200} height={100} />
             </label>
           </div>
