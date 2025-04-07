@@ -18,6 +18,17 @@
       "gender": "Male",
       "age": "30",
       "avatar": "blob:http://localhost:5173/822dd52a-177d-4af1-ab94-655ec9b28f97"
+    },
+    {
+      "id": "378f",
+      "name": "Ibrohim",
+      "email": "ibvibrohim3110@gmail.com",
+      "subject": "English",
+      "about": "Gay",
+      "class": "1 B",
+      "gender": "Female",
+      "age": "6",
+      "avatar": "blob:http://localhost:5173/64c45225-6afa-46ef-a6f5-ed29fd17c63c"
     }
   ]
 }
